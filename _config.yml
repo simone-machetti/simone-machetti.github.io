@@ -8,12 +8,12 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "dark"
-title                    : "Your Name / Site Title"
+site_theme               : "default"
+title                    : "Simone Machetti"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Simone Machetti"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://simone-machetti.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Simone Machetti"
   pronouns         : # example: "she/her"
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "RTL Design Enginner | PhD Student at EPFL"
+  location         : "Lausanne, Switzerland"
+  employer         : "EPFL"
   uri              : # URL
   email            : "none@example.org"
 
