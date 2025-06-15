@@ -5,6 +5,7 @@
 # with geopy/Nominatim, and uses the getorg library to output data, HTML, and
 # Javascript for a standalone cluster map. This is functionally the same as the
 # #talkmap Jupyter notebook.
+
 import frontmatter
 import glob
 import getorg
