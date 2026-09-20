@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simone Machetti, PhD — Research Scientist, RISC-V and AI hardware</title>
+  <meta name="description" content="Low-power heterogeneous architectures, RISC-V platforms, and GPU design for AI applications.">
+  <link rel="canonical" href="https://simonemachetti.it/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://simonemachetti.it/">
+  <meta property="og:title" content="Simone Machetti, PhD">
+  <meta property="og:description" content="Low-power heterogeneous architectures, RISC-V platforms, and GPU design for AI applications.">
+  <meta property="og:image" content="https://simonemachetti.it/assets/og-image.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#1c1a18">
+  <link rel="icon" href="assets/favicon.png" sizes="32x32" type="image/png">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Lora&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container" aria-label="Primary">
+    <a class="nav-brand" href="#top">Simone Machetti</a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="btn btn-icon btn-ghost theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="true">
+      <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+      <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+    </button>
+    <button class="btn btn-icon menu-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav-links">
+      <svg class="icon-menu" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><line x1="4" x2="20" y1="7" y2="7"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="17" y2="17"/></svg>
+      <svg class="icon-x" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+    </button>
+  </nav>
+</header>
+
+<main id="top" class="container">
+
+  <section class="hero" aria-label="Introduction">
+    <div class="hero-text">
+      <p class="kicker hero-kicker">Zurich, Switzerland</p>
+      <h1 class="hero-name">Simone Machetti, PhD</h1>
+      <p class="hero-headline">Research Scientist at Huawei · PhD from EPFL · RTL Design Engineer</p>
+      <p class="hero-tagline">Low-power heterogeneous architectures, RISC-V platforms, and GPU design for AI applications.</p>
+      <div class="actions">
+        <div class="actions-primary">
+          <a class="btn btn-primary" href="https://www.linkedin.com/in/simone-machetti/" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+          <a class="btn btn-primary" href="https://scholar.google.com/citations?user=9a_xSzQAAAAJ" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
+            Google Scholar
+          </a>
+          <a class="btn btn-primary" href="https://github.com/simone-machetti" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+    <figure class="plate hero-photo">
+      <img src="assets/portrait.jpg" width="480" height="719" alt="Portrait of Simone Machetti" loading="eager" fetchpriority="high">
+    </figure>
+  </section>
+
+  <section class="section" id="about" aria-labelledby="about-title">
+    <h2 class="kicker kicker-tight" id="about-title">About</h2>
+    <p class="about-text">Researcher with 7+ years of experience in low-power heterogeneous architectures, specializing in RISC-V platforms, accelerator integration (CGRA, IMC, NMC), and GPU design for AI applications. Experienced in both silicon tapeouts (65 nm, 16 nm) and FPGA prototyping. Author of 10+ publications in top conferences and journals (ICCAD, ISVLSI, IEEE Micro, TBioCAS), with 200+ citations. Co-organizer of international workshops, teaching assistant in ASIC/FPGA design, and active contributor to open-source frameworks (FEMU, X-HEEP, e-GPU).</p>
+    <ul class="tags" aria-label="Areas of expertise">
+      <li class="tag">RTL Design</li>
+      <li class="tag">ASIC Design</li>
+      <li class="tag">FPGA Design</li>
+      <li class="tag">SoC Design</li>
+      <li class="tag">RISC-V</li>
+      <li class="tag">Accelerator Integration</li>
+      <li class="tag">GPU Architecture</li>
+      <li class="tag">Silicon Tapeout</li>
+      <li class="tag">FPGA Prototyping</li>
+    </ul>
+    <dl class="skills" aria-label="Tools and languages">
+      <dt>Hardware</dt>
+      <dd>SystemVerilog, Verilog, VHDL</dd>
+      <dt>Commercial EDA</dt>
+      <dd>ModelSim, Design Compiler, Innovus, PrimeTime, PrimePower, Vivado</dd>
+      <dt>Open-source EDA</dt>
+      <dd>Verilator, Yosys, OpenROAD, OpenSTA</dd>
+      <dt>Software</dt>
+      <dd>C, C++, RISC-V assembly</dd>
+      <dt>Scripting</dt>
+      <dd>Python, Tcl, Bash, Git</dd>
+    </dl>
+  </section>
+
+  <section class="section" id="experience" aria-labelledby="experience-title">
+    <p class="kicker kicker-heading">Experience</p>
+    <h2 class="section-title" id="experience-title">Several years in low-power hardware</h2>
+    <ol class="timeline">
+      <li class="tl-item">
+        <p class="tl-meta"><time datetime="2026-02">Feb 2026</time> – Present<span class="tl-place">Zurich, Switzerland</span></p>
+        <div class="tl-marker" aria-hidden="true"><span class="tl-dot"></span><span class="tl-line"></span></div>
+        <div class="tl-body">
+          <h3>Research Scientist</h3>
+          <p class="tl-org">Huawei</p>
+          <p class="tl-text">Driving research on advanced computing architectures for energy-efficient AI processing at the Von Neumann Research Center (VNRC).</p>
+        </div>
+      </li>
+      <li class="tl-item">
+        <p class="tl-meta"><time datetime="2026-04">Apr 2026</time> – <time datetime="2026-05">May 2026</time><span class="tl-place">Shanghai, China</span></p>
+        <div class="tl-marker" aria-hidden="true"><span class="tl-dot"></span><span class="tl-line"></span></div>
+        <div class="tl-body">
+          <h3>Visiting Researcher</h3>
+          <p class="tl-org">HiSilicon</p>
+          <p class="tl-text">Conducted research on the optimization of matrix multiplication accelerators for next-generation AI processors.</p>
+        </div>
+      </li>
+      <li class="tl-item">
+        <p class="tl-meta"><time datetime="2025-01">Jan 2025</time> – <time datetime="2025-10">Oct 2025</time><span class="tl-place">Lausanne, Switzerland</span></p>
+        <div class="tl-marker" aria-hidden="true"><span class="tl-dot"></span><span class="tl-line"></span></div>
+        <div class="tl-body">
+          <h3>Research Member</h3>
+          <p class="tl-org">SwissChips</p>
+          <p class="tl-text">Contributed to the SwissChips project, which advances open-source and energy-efficient hardware design in Switzerland.</p>
+        </div>
+      </li>
+      <li class="tl-item">
+        <p class="tl-meta"><time datetime="2020-07">Jul 2020</time> – <time datetime="2025-10">Oct 2025</time><span class="tl-place">Lausanne, Switzerland</span></p>
+        <div class="tl-marker" aria-hidden="true"><span class="tl-dot"></span><span class="tl-line"></span></div>
+        <div class="tl-body">
+          <h3>PhD Researcher</h3>
+          <p class="tl-org">EPFL, Embedded Systems Laboratory</p>
+          <p class="tl-text">Conducted research across multiple topics in the design of ASIC and FPGA frameworks and platforms for TinyAI applications.</p>
+          <h4 class="tl-subhead">Main contributions</h4>
+          <ul class="tl-bullets">
+            <li><span class="tl-term">FPGA EMUlation (FEMU):</span> an open-source and configurable emulation framework for prototyping and evaluating TinyAI heterogeneous systems.</li>
+            <li><span class="tl-term">eXtendible Heterogeneous Energy-Efficient Platform (X-HEEP):</span> an open-source, configurable, and extendible RISC-V platform that supports the exploration of TinyAI accelerators.</li>
+            <li><span class="tl-term">Embedded GPU (e-GPU):</span> an open-source and configurable RISC-V platform for exploring the feasibility and trade-offs of using GPUs in TinyAI scenarios.</li>
+          </ul>
+          <h4 class="tl-subhead">Tapeouts</h4>
+          <ul class="tl-bullets">
+            <li><span class="tl-term">HEEPocrates (65 nm TSMC):</span> integrates the X-HEEP host with a coarse-grained reconfigurable array (CGRA) and in-memory computing (IMC) accelerators.</li>
+            <li><span class="tl-term">HEEPatia (16 nm TSMC):</span> integrates the X-HEEP host with a coarse-grained reconfigurable array (CGRA), near-memory computing (NMC) accelerators, and a co-processor for posit arithmetic.</li>
+          </ul>
+          <h4 class="tl-subhead">Workshops</h4>
+          <ul class="tl-bullets">
+            <li><span class="tl-term">DATE 2024 Conference:</span> co-organized a workshop on RISC-V open-source hardware and software, and presented my research activities.</li>
+          </ul>
+          <h4 class="tl-subhead">Competitions</h4>
+          <ul class="tl-bullets">
+            <li><span class="tl-term">AMD Open Hardware Competition:</span> designed an emulation platform for exploring TinyAI heterogeneous systems.</li>
+          </ul>
+          <h4 class="tl-subhead">Honors</h4>
+          <ul class="tl-bullets">
+            <li><span class="tl-term">Best Project Award:</span> awarded by the SMARTHEP Edge Machine Learning School at CERN, Geneva.</li>
+          </ul>
+        </div>
+      </li>
+      <li class="tl-item">
+        <p class="tl-meta"><time datetime="2020-07">Jul 2020</time> – <time datetime="2025-10">Oct 2025</time><span class="tl-place">Lausanne, Switzerland</span></p>
+        <div class="tl-marker" aria-hidden="true"><span class="tl-dot"></span><span class="tl-line"></span></div>
+        <div class="tl-body">
+          <h3>Teaching Assistant</h3>
+          <p class="tl-org">EPFL</p>
+          <p class="tl-text">Assisted in teaching multiple courses on ASIC and FPGA implementation flows.</p>
+          <ul class="tl-bullets">
+            <li><span class="tl-term">Lab in advanced VLSI design:</span> the complete ASIC design flow, from RTL to GDS (Prof. Andreas Burg).</li>
+            <li><span class="tl-term">Digital systems design:</span> the entry-level FPGA design flow, using Xilinx FPGAs (Prof. Andreas Burg).</li>
+            <li><span class="tl-term">Lab on hardware-software digital systems co-design:</span> the design of complex hardware/software architectures on Xilinx FPGAs (Prof. David Atienza).</li>
+          </ul>
+        </div>
+      </li>
+      <li class="tl-item">
+        <p class="tl-meta"><time datetime="2020-07">Jul 2020</time> – <time datetime="2025-10">Oct 2025</time><span class="tl-place">Lausanne, Switzerland</span></p>
+        <div class="tl-marker" aria-hidden="true"><span class="tl-dot"></span><span class="tl-line"></span></div>
+        <div class="tl-body">
+          <h3>Co-Founder &amp; Senior Researcher</h3>
+          <p class="tl-org">X-HEEP Platform</p>
+          <p class="tl-text">Co-founded and contributed to a university project focused on the development of open-source, configurable, and extendible RISC-V hardware. The project is built around the eXtendible Heterogeneous Energy-Efficient Platform (X-HEEP), a configurable and extendible RISC-V host designed to support the exploration of ultra-low-power edge accelerators.</p>
+        </div>
+      </li>
+      <li class="tl-item">
+        <p class="tl-meta"><time datetime="2019-11">Nov 2019</time> – <time datetime="2020-06">Jun 2020</time><span class="tl-place">Lausanne, Switzerland</span></p>
+        <div class="tl-marker" aria-hidden="true"><span class="tl-dot"></span><span class="tl-line"></span></div>
+        <div class="tl-body">
+          <h3>Research Intern</h3>
+          <p class="tl-org">EPFL, Embedded Systems Laboratory</p>
+          <p class="tl-text">Implemented and optimized convolutional neural networks (CNNs) on ultra-low-power heterogeneous multi-core architectures, in a project carried out in collaboration with Nespresso.</p>
+        </div>
+      </li>
+      <li class="tl-item">
+        <p class="tl-meta"><time datetime="2019-11">Nov 2019</time> – <time datetime="2020-06">Jun 2020</time><span class="tl-place">Lausanne, Switzerland</span></p>
+        <div class="tl-marker" aria-hidden="true"><span class="tl-dot"></span><span class="tl-line"></span></div>
+        <div class="tl-body">
+          <h3>External Researcher</h3>
+          <p class="tl-org">Nestlé Nespresso SA</p>
+          <p class="tl-text">Collaborated with Nespresso during my internship at the Embedded Systems Laboratory (ESL) of EPFL, working on the implementation and optimization of convolutional neural networks (CNNs) on ultra-low-power heterogeneous multi-core architectures.</p>
+        </div>
+      </li>
+      <li class="tl-item">
+        <p class="tl-meta"><time datetime="2019-01">Jan 2019</time> – <time datetime="2019-10">Oct 2019</time><span class="tl-place">Volpiano, Italy</span></p>
+        <div class="tl-marker" aria-hidden="true"><span class="tl-dot"></span></div>
+        <div class="tl-body">
+          <h3>Firmware Engineer</h3>
+          <p class="tl-org">SPEA</p>
+          <p class="tl-text">Developed low-level firmware implementing various functionalities of automatic test equipment (ATE). Trained in the use of the complete laboratory equipment, including oscilloscopes, multimeters, waveform generators, and soldering irons.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section class="section" id="education" aria-labelledby="education-title">
+    <p class="kicker kicker-heading">Education</p>
+    <h2 class="section-title" id="education-title">A curriculum focused on RTL design</h2>
+    <ul class="edu-list">
+      <li class="edu-row">
+        <p class="edu-years">2020 – 2025</p>
+        <div>
+          <h3>PhD in Electrical and Electronics Engineering</h3>
+          <p class="edu-school">EPFL</p>
+          <p class="edu-note">Completed at the Embedded Systems Laboratory (ESL) of EPFL, under the supervision of Professor David Atienza.</p>
+          <p class="edu-note"><span class="tl-term">Thesis title:</span> Open-Source and Configurable RISC-V Platforms for Exploring TinyAI Heterogeneous Systems.</p>
+          <!-- <p class="edu-note">Defended 5 December 2025.</p> -->
+        </div>
+      </li>
+      <li class="edu-row">
+        <p class="edu-years">2016 – 2018</p>
+        <div>
+          <h3>MSc in Computer Engineering, major in Embedded Systems</h3>
+          <p class="edu-school">Politecnico di Torino</p>
+          <p class="edu-note"><span class="tl-term">Grade:</span> 110/110 summa cum laude · <span class="tl-term">Grade average:</span> 29.5/30</p>
+          <p class="edu-note"><span class="tl-term">Thesis title:</span> ASIP Design for Motion Estimation in Video Compression Algorithms.</p>
+          <p class="edu-note">Designed an application-specific instruction-set processor (ASIP) core optimized for video compression applications, using Synopsys ASIP Designer to describe, compile, and simulate the processor.</p>
+          <h4 class="tl-subhead">RTL projects</h4>
+          <ul class="tl-bullets">
+            <li><span class="tl-term">CPU RTL Design:</span> a DLX microprocessor core with a five-stage pipeline.</li>
+            <li><span class="tl-term">Filter RTL Design:</span> a finite impulse response (FIR) low-pass filter, designed at different abstraction levels.</li>
+            <li><span class="tl-term">Multiplier RTL Design:</span> a modified Booth encoding (MBE) multiplier.</li>
+            <li><span class="tl-term">Sniffer RTL Design:</span> a bus sniffer that monitors the instruction bus of an MCU and activates hardware Trojans.</li>
+            <li><span class="tl-term">Interface RTL Design:</span> a smart and efficient communication protocol between an MCU and an FPGA.</li>
+          </ul>
+        </div>
+      </li>
+      <li class="edu-row">
+        <p class="edu-years">2013 – 2016</p>
+        <div>
+          <h3>BSc in Computer Engineering</h3>
+          <p class="edu-school">Politecnico di Torino</p>
+          <h4 class="tl-subhead">Project</h4>
+          <ul class="tl-bullets">
+            <li><span class="tl-term">Smart Bus Station:</span> a smart bus station designed to support visually impaired people in using the public transport system.</li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="section" id="publications" aria-labelledby="publications-title">
+    <p class="kicker kicker-heading">Selected publications</p>
+    <h2 class="section-title" id="publications-title">Research on RISC-V platforms and AI hardware</h2>
+    <!-- Ordered by Google Scholar citation count, highest first (checked 20 Sep 2026). -->
+    <ol class="pub-list">
+      <li class="pub-row">
+        <p class="pub-main"><span class="pub-title">X-HEEP: An Open-Source, Configurable and Extendible RISC-V Microcontroller for the Exploration of Ultra-Low-Power Edge Accelerators</span> <span class="pub-venue">arXiv, <span class="tnum">2024</span></span></p>
+        <a class="pub-link" href="https://arxiv.org/abs/2401.05548" target="_blank" rel="noopener">Link</a>
+      </li>
+      <li class="pub-row">
+        <p class="pub-main"><span class="pub-title">Modular Design and Optimization of Biomedical Applications for Ultralow Power Heterogeneous Platforms</span> <span class="pub-venue">IEEE TCAD, <span class="tnum">2020</span></span></p>
+        <a class="pub-link" href="https://doi.org/10.1109/TCAD.2020.3012652" target="_blank" rel="noopener">Link</a>
+      </li>
+      <li class="pub-row">
+        <p class="pub-main"><span class="pub-title">A Hardware/Software Co-Design Vision for Deep Learning at the Edge</span> <span class="pub-venue">IEEE Micro, <span class="tnum">2022</span></span></p>
+        <a class="pub-link" href="https://doi.org/10.1109/MM.2022.3195617" target="_blank" rel="noopener">Link</a>
+      </li>
+      <li class="pub-row">
+        <p class="pub-main"><span class="pub-title">X-HEEP: An Open-Source, Configurable and Extendible RISC-V Microcontroller</span> <span class="pub-venue">ACM Computing Frontiers, <span class="tnum">2023</span></span></p>
+        <a class="pub-link" href="https://doi.org/10.1145/3587135.3591431" target="_blank" rel="noopener">Link</a>
+      </li>
+      <li class="pub-row">
+        <p class="pub-main"><span class="pub-title">Defeating Hardware Trojan in Microprocessor Cores through Software Obfuscation</span> <span class="pub-venue">IEEE LATS, <span class="tnum">2018</span></span></p>
+        <a class="pub-link" href="https://doi.org/10.1109/LATW.2018.8349680" target="_blank" rel="noopener">Link</a>
+      </li>
+      <li class="pub-row">
+        <p class="pub-main"><span class="pub-title">X-HEEP: An Open-Source, Configurable and Extendible RISC-V Platform for TinyAI Applications</span> <span class="pub-venue">ISVLSI, <span class="tnum">2025</span></span></p>
+        <a class="pub-link" href="https://doi.org/10.1109/ISVLSI65124.2025.11130281" target="_blank" rel="noopener">Link</a>
+      </li>
+      <li class="pub-row">
+        <p class="pub-main"><span class="pub-title">HEEPocrates: An Ultra-Low-Power RISC-V Microcontroller for Edge-Computing Healthcare Applications</span> <span class="pub-venue">Europractice Activity Report, <span class="tnum">2023</span></span></p>
+        <a class="pub-link" href="https://infoscience.epfl.ch/bitstreams/c186f607-8740-4e71-9a22-2328da2e3116/download" target="_blank" rel="noopener">Link</a>
+      </li>
+      <li class="pub-row">
+        <p class="pub-main"><span class="pub-title">ACE: Automated Optimization Towards Iterative Classification in Edge Health Monitors</span> <span class="pub-venue">IEEE TBioCAS, <span class="tnum">2024</span></span></p>
+        <a class="pub-link" href="https://doi.org/10.1109/TBCAS.2024.3468160" target="_blank" rel="noopener">Link</a>
+      </li>
+      <li class="pub-row">
+        <p class="pub-main"><span class="pub-title">e-GPU: An Open-Source and Configurable RISC-V Graphic Processing Unit for TinyAI Applications</span> <span class="pub-venue">arXiv, <span class="tnum">2025</span></span></p>
+        <a class="pub-link" href="https://arxiv.org/abs/2505.08421" target="_blank" rel="noopener">Link</a>
+      </li>
+      <li class="pub-row">
+        <p class="pub-main"><span class="pub-title">ASIP Design for Motion Estimation in Video Compression Algorithms</span> <span class="pub-venue">MSc thesis, Politecnico di Torino, <span class="tnum">2018</span></span></p>
+        <a class="pub-link" href="https://webthesis.biblio.polito.it/8975/" target="_blank" rel="noopener">Link</a>
+      </li>
+      <li class="pub-row">
+        <p class="pub-main"><span class="pub-title">An Open-Source and Configurable RISC-V CPU/GPU Accelerated Processing Unit for Ultra-Low-Power Wearable Devices</span> <span class="pub-venue">SMARTHEP Edge Machine Learning School, CERN, <span class="tnum">2024</span></span></p>
+        <a class="pub-link" href="https://infoscience.epfl.ch/entities/publication/78b69e10-82e0-467e-8c8d-86c0dd5e794c" target="_blank" rel="noopener">Link</a>
+      </li>
+      <li class="pub-row">
+        <p class="pub-main"><span class="pub-title">FEMU: An Open-Source RISC-V Emulation Platform for the Exploration of Accelerator-based Edge Applications</span> <span class="pub-venue">DATE, <span class="tnum">2024</span></span></p>
+        <a class="pub-link" href="https://infoscience.epfl.ch/entities/publication/592d860c-8a51-409f-bec8-37894c80c109" target="_blank" rel="noopener">Link</a>
+      </li>
+      <li class="pub-row">
+        <p class="pub-main"><span class="pub-title">FEMU: An Open-Source and Configurable Emulation Framework for Prototyping TinyAI Heterogeneous Systems</span> <span class="pub-venue">ICCAD, <span class="tnum">2025</span></span></p>
+        <a class="pub-link" href="https://doi.org/10.1109/ICCAD66269.2025.11240841" target="_blank" rel="noopener">Link</a>
+      </li>
+      <li class="pub-row">
+        <p class="pub-main"><span class="pub-title">Open-Source and Configurable RISC-V Platforms for Exploring TinyAI Heterogeneous Systems</span> <span class="pub-venue">PhD thesis, EPFL, <span class="tnum">2025</span></span></p>
+        <a class="pub-link" href="https://doi.org/10.5075/epfl-thesis-10819" target="_blank" rel="noopener">Link</a>
+      </li>
+      <li class="pub-row">
+        <p class="pub-main"><span class="pub-title">X-HEEP: An Open-Source, Configurable and Extendible RISC-V Microcontroller for the Exploration of Ultra-Low-Power Edge Accelerators</span> <span class="pub-venue">EcoCloud Event, EPFL, <span class="tnum">2023</span></span></p>
+        <a class="pub-link" href="https://infoscience.epfl.ch/entities/publication/c5bfadad-dffb-4ce4-b4b0-c9c677c91a00" target="_blank" rel="noopener">Link</a>
+      </li>
+    </ol>
+    <a class="more-link" href="https://scholar.google.com/citations?user=9a_xSzQAAAAJ" target="_blank" rel="noopener">Full list on Google Scholar</a>
+  </section>
+
+  <section class="section" id="projects" aria-labelledby="projects-title">
+    <h2 class="kicker" id="projects-title">Main open-source projects</h2>
+    <ul class="cards">
+      <li class="card">
+        <p class="card-kicker">Co-founder</p>
+        <h3 class="card-title">X-HEEP</h3>
+        <p class="card-body">An open-source, configurable, and extendible RISC-V microcontroller built to host ultra-low-power edge accelerators. Taped out in the HEEPocrates (65 nm) and HEEPatia (16 nm) chips, and maintained by EPFL, UPM, and Politecnico di Torino.</p>
+        <div class="card-links">
+          <a class="card-link" href="https://github.com/x-heep/x-heep" target="_blank" rel="noopener">GitHub <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+          <a class="card-link" href="https://arxiv.org/abs/2401.05548" target="_blank" rel="noopener">Paper <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+        </div>
+      </li>
+      <li class="card">
+        <p class="card-kicker">Lead author</p>
+        <h3 class="card-title">FEMU</h3>
+        <p class="card-body">An FPGA emulation framework for prototyping and evaluating TinyAI heterogeneous systems. It ports X-HEEP to the Zynq-7020 of a Pynq-Z2 board, so applications can be explored on real hardware before silicon exists.</p>
+        <div class="card-links">
+          <a class="card-link" href="https://github.com/esl-epfl/x-heep-femu" target="_blank" rel="noopener">GitHub <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+          <a class="card-link" href="https://ieeexplore.ieee.org/document/11240841" target="_blank" rel="noopener">Paper <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+        </div>
+      </li>
+      <li class="card">
+        <p class="card-kicker">Lead author</p>
+        <h3 class="card-title">FEMU SDK</h3>
+        <p class="card-body">The software development kit for FEMU. It runs on the Linux side of the board and allows users to run their own applications on the emulated X-HEEP, from a terminal or a Jupyter environment.</p>
+        <div class="card-links">
+          <a class="card-link" href="https://github.com/esl-epfl/x-heep-femu-sdk" target="_blank" rel="noopener">GitHub <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+          <a class="card-link" href="https://ieeexplore.ieee.org/document/11240841" target="_blank" rel="noopener">Paper <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+        </div>
+      </li>
+      <li class="card">
+        <p class="card-kicker">Lead author</p>
+        <h3 class="card-title">e-GPU</h3>
+        <p class="card-body">An open-source, configurable RISC-V GPU for TinyAI devices, programmed through a lightweight Tiny-OpenCL framework. Paired with X-HEEP as an accelerated processing unit and implemented in 16 nm within a 28 mW power budget.</p>
+        <div class="card-links">
+          <a class="card-link" href="https://github.com/simone-machetti/e-gpu" target="_blank" rel="noopener">GitHub <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+          <a class="card-link" href="https://arxiv.org/abs/2505.08421" target="_blank" rel="noopener">Paper <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+        </div>
+      </li>
+      <li class="card">
+        <p class="card-kicker">Author</p>
+        <h3 class="card-title">RTL Sandbox Template</h3>
+        <p class="card-body">A GitHub template for RTL research projects. It ships a complete open-source ASIC flow on the ASAP7 predictive PDK: Verilator simulation, Yosys synthesis, OpenROAD place-and-route, and OpenSTA timing and power analysis.</p>
+        <a class="card-link" href="https://github.com/simone-machetti/rtl-sandbox-template" target="_blank" rel="noopener">GitHub <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+      </li>
+      <li class="card">
+        <p class="card-kicker">Author</p>
+        <h3 class="card-title">ASAP7 SMIC N+3 BEOL</h3>
+        <p class="card-body">The ASAP7 predictive PDK with a swappable metal stack, rebuilt on the pitches measured on SMIC N+3. One design can be placed and routed on both stacks, to compare results against a process with no public design kit.</p>
+        <a class="card-link" href="https://github.com/simone-machetti/asap7-smic-n3-beol" target="_blank" rel="noopener">GitHub <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+      </li>
+    </ul>
+    <a class="more-link" href="https://github.com/simone-machetti" target="_blank" rel="noopener">Full list on GitHub</a>
+  </section>
+
+  <section class="section" id="highlights" aria-labelledby="highlights-title">
+    <h2 class="kicker" id="highlights-title">Highlights</h2>
+    <div class="highlights">
+      <div class="highlight-stack">
+        <div class="highlight">
+          <h3>Honors</h3>
+          <p>Best Project Award at the SMARTHEP Edge Machine Learning School, CERN. Ranked in the top 6% of students in the Computer Architectures course at Politecnico di Torino.</p>
+        </div>
+        <div class="highlight">
+          <h3>Beyond the lab</h3>
+          <p>Aikido black belt, 4th dan. Qualified as Fuku Shidoin (instructor) in 2015.</p>
+        </div>
+      </div>
+      <div class="highlight-stack">
+        <div class="highlight">
+          <h3>Certifications</h3>
+          <p>Udemy: Physical Design Flow, Static Timing Analysis I&#8209;II, Clock Tree Synthesis I&#8209;II, RISC-V ISA I&#8209;II. Deep Learning on Chip Summer School. IELTS (British Council). ICDL European Computer Driving Licence. Basic Life Support (Divers Alert Network). Computer Hardware Technician (Delpho Didattica Informatica).</p>
+        </div>
+        <div class="highlight">
+          <h3>Languages</h3>
+          <p>Italian (native), English (professional, IELTS certified), French (elementary).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact" aria-labelledby="contact-title">
+    <p class="kicker kicker-tight">Contact</p>
+    <h2 class="contact-title" id="contact-title">Open to research collaborations and conversations about low-power hardware and AI applications.</h2>
+    <div class="contact-row">
+      <a class="btn btn-primary" href="https://www.linkedin.com/in/simone-machetti/" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+        LinkedIn
+      </a>
+      <a class="btn btn-primary" href="https://scholar.google.com/citations?user=9a_xSzQAAAAJ" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
+        Google Scholar
+      </a>
+      <a class="btn btn-primary" href="https://github.com/simone-machetti" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+        GitHub
+      </a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <span>© 2026 Simone Machetti</span>
+  </footer>
+
+</main>
+
+<script src="theme.js" defer></script>
+</body>
+</html>
